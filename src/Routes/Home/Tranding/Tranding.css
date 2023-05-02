@@ -1,0 +1,13 @@
+.Tranding {
+  margin-top: 10%;
+}
+
+.brands img {
+  opacity: 0.4;
+  display: block;
+  margin: auto;
+}
+
+.brands img:hover {
+  opacity: 0.9;
+}

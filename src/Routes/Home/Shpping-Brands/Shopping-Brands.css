@@ -1,0 +1,57 @@
+.Shopping-Brands {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Shopping-Brands div img {
+  display: block;
+  margin: auto;
+}
+
+.About-Shopping {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.About-Shopping button {
+  padding: 27px;
+  border: 1px solid black;
+}
+
+.About-Shopping button:hover {
+  background: #000;
+  color: white;
+}
+
+@media all and (min-width: 200px) and (max-width: 400px) {
+  .About-Shopping h2 {
+    font-size: 17px;
+  }
+  .About-Shopping p {
+    font-size: 17px;
+  }
+
+  .About-Shopping button {
+    padding: 20px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 800px) {
+  .About-Shopping h2 {
+    font-size: 17px;
+  }
+  .About-Shopping p {
+    font-size: 17px;
+  }
+
+  .About-Shopping button {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.Cart-Deatils {
+  width: 90%;
+  margin: 4% auto;
+}
+
+.cart-items {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cart-items button {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.cart-items button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}

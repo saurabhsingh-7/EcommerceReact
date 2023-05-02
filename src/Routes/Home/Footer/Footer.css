@@ -1,0 +1,76 @@
+.Footer {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 300px;
+  padding: 32px;
+}
+
+.Footer-Items p {
+  color: gray;
+  font-size: 18px;
+}
+
+.Footer-Items p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.Footer-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media all and (min-width: 100px) and (max-width: 200px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 994px;
+    padding: 32px;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 280px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 1161px;
+    padding: 32px;
+  }
+}
+
+@media all and (min-width: 280px) and (max-width: 400px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 1070px;
+    padding: 32px;
+  }
+}
+
+@media all and (min-width: 400px) and (max-width: 480px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 1000px;
+    padding: 32px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 992px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 570px;
+    padding: 32px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .Footer {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 280px;
+    padding: 32px;
+  }
+}

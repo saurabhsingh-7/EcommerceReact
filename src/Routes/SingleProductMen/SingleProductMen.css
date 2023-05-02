@@ -1,0 +1,19 @@
+.Single-Product {
+  width: 80%;
+  margin: 4% auto;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Single-Product img {
+  display: block;
+  margin: auto;
+}
+
+.Single-Details {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
