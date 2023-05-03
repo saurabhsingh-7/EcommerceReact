@@ -32,7 +32,7 @@ const Navbar = () => {
             <h2>
               {/* <span>E</span>wc */}
             </h2>
-            <Text>Fashion Fusion</Text>
+            <Text>Saurabh Ecommerce</Text>
           </Link>
         </div>
 
